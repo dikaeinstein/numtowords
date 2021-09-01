@@ -3,10 +3,10 @@
 Implements a routine that takes an integer number in the range 1 - 9999 and convert that
 number to words.
 
-[![Build Status](https://github.com/dikaeinstein/numtowords/actions/workflows/ci-cd.yml/badge.svg?branch=master)](https://github.com/dikaeinstein/numtowords/actions)
-[![Coverage Status](https://coveralls.io/repos/github/dikaeinstein/numtowords/badge.svg?branch=master)](https://coveralls.io/github/dikaeinstein/numtowords?branch=master)
+[![Build Status](https://github.com/dikaeinstein/numtowords/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dikaeinstein/numtowords/actions)
+[![Coverage Status](https://coveralls.io/repos/github/dikaeinstein/numtowords/badge.svg)](https://coveralls.io/github/dikaeinstein/numtowords)
 
 ## Prerequisites
 
 - make
-- Go 1.17+
+- GO 1.17+
