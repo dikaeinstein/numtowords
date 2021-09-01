@@ -4,7 +4,7 @@ Implements a routine that takes an integer number in the range 1 - 9999 and conv
 number to words.
 
 [![Build Status](https://github.com/dikaeinstein/numtowords/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/dikaeinstein/numtowords/actions)
-[![Coverage Status](https://coveralls.io/repos/github/dikaeinstein/numtowords/badge.svg)](https://coveralls.io/github/dikaeinstein/numtowords)
+[![Coverage Status](https://coveralls.io/repos/github/dikaeinstein/numtowords/badge.svg?branch=main)](https://coveralls.io/github/dikaeinstein/numtowords?branch=main)
 
 ## Prerequisites
 
