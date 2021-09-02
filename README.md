@@ -10,3 +10,19 @@ number to words.
 
 - make
 - GO 1.17+
+
+### Question 2
+
+The terraform configuration files solution for the question is stored in the
+`terraform` directory. To create the infrastructure for the web site:
+
+```sh
+    cd terraform
+    terraform init
+    terraform plan
+    terraform apply
+```
+
+Retrieve the website endpoint from the terraform output to test the website.
+After testing, delete the s3 bucket files and destroy the infrastructure:
+`terraform destroy`
