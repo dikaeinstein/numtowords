@@ -29,6 +29,7 @@ func Convert(n int) string {
 
 	result := ""
 	for i := 0; i < len(nStr); i++ {
+		// handle the first 2 digits
 		if l >= 3 {
 			if nStr[i]-'0' != 0 {
 				const and = "and "
@@ -42,12 +43,13 @@ func Convert(n int) string {
 			}
 			l--
 		} else {
+			// handle 10 - 19
 			if nStr[i] == '1' {
 				sum := nStr[i] - '0' + nStr[i+1] - '0'
 				result += tens[sum-1]
-			} else if nStr[i] == '2' && nStr[i+1]-'0' == 0 {
+			} else if nStr[i] == '2' && nStr[i+1]-'0' == 0 { // handle 20
 				result += tenMultiples[2]
-			} else {
+			} else { // handle 21 - 99
 				idx := nStr[i] - '0'
 				if idx > 0 {
 					result += tenMultiples[idx] + " "
